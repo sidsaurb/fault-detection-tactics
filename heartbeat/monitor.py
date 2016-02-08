@@ -20,7 +20,7 @@ receivers = ["sidsaurb@iitk.ac.in"]
 smtpObj = smtplib.SMTP(host='smtp.gmail.com', port=587)
 smtpObj.ehlo()
 smtpObj.starttls()
-smtpObj.login("ftpmassignmentiitk@gmail.com", "")
+smtpObj.login("ftpmassignmentiitk@gmail.com", "iitk1234")
 
 @app.route("/monitor")
 def updateTime():
