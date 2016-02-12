@@ -19,5 +19,5 @@ def sendBeat():
 		timer = threading.Timer(timerInterval, sendBeat)
 		timer.start()
 
-timer = threading.Timer(timerInterval, sendBeat)
+timer = threading.Timer(0, sendBeat)
 timer.start()

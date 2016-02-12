@@ -23,7 +23,7 @@ smtpObj.login("ftpmassignmentiitk@gmail.com", "iitk1234")
 
 def sendPing():
         try:
-		host = "sworlite.com"
+		host = "google.com"
                 response = os.system("ping -c 1 " + host + " > /dev/null")
 		if response == 0:
                         print "Ping successful: Host reachable"
